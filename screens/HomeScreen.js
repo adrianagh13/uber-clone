@@ -1,12 +1,13 @@
 import React from "react";
 import { View, StyleSheet, Text, SafeAreaView } from "react-native";
+import tw from 'tailwind-react-native-classnames';
 
 const HomeScreen = () => {
   return (
-    <View>
+    <>
       <SafeAreaView />
-      <Text>Let's build HomeScreen</Text>
-    </View>
+      <Text style={tw `text-red-500`}>Let's build uber</Text>
+    </>
   )
 }
 
